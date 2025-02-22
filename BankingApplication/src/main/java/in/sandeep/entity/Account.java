@@ -6,6 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//This is an entity class for accounts
 @Entity
 @Table(name="accounts")
 public class Account {
